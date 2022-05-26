@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-dashboard",
+  "version": "1.0.0",
+  "description": "A demo dashboard project using tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "author": "Mahmud Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
